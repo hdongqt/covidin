@@ -60,8 +60,8 @@ function App() {
     <Container style={{backgroundColor: "#fff"}}> 
     <Typography variant="h3" component="h3">
       Thông tin về dịch bệnh Covid - Đồng 5
-      <Music></Music>
     </Typography>
+    <Music></Music>
     <Typography variant="h5" component="h5" style={{color: "#3B3B98", marginLeft: '10px'}}>
       Trên cả nước
     </Typography>
@@ -70,6 +70,7 @@ function App() {
     <Detail report={report}/>
     <HighMaps detail={detail} />
     </Container>
+    <Music></Music>
     </div>
   );
 }

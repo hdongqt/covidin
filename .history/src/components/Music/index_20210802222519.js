@@ -1,8 +1,10 @@
 import { Button } from '@material-ui/core';
-import { useEffect } from 'react';
 import ReactPlayer from "react-player";
 
 export default function Music() {
+    useEffect(() => {
+        document.querySelector(".react-player__preview .MuiButtonBase-root").click()
+    }, [])
     return (
         <div className="music">
        <ReactPlayer

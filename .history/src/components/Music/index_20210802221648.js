@@ -1,5 +1,5 @@
+import React, { useEffect } from 'react';
 import { Button } from '@material-ui/core';
-import { useEffect } from 'react';
 import ReactPlayer from "react-player";
 
 export default function Music() {
@@ -9,10 +9,10 @@ export default function Music() {
   url="https://www.youtube.com/watch?v=aiyaosxx13A"
   width="0"
   height="0"
-  playing={true}
+  playing
   playIcon={<Button variant="contained" color="secondary">Play</Button>}
   light="#ccc"
-  style={{marginLeft: '20px',display: 'block'}}
-/></div>
+/>
+       </div>
     )
 }

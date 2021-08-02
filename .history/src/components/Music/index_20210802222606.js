@@ -3,6 +3,10 @@ import { useEffect } from 'react';
 import ReactPlayer from "react-player";
 
 export default function Music() {
+    useEffect(() => {
+        const t =document.querySelector(".react-player__preview .MuiButtonBase-root")
+        console.log()
+    }, [])
     return (
         <div className="music">
        <ReactPlayer

@@ -10,7 +10,7 @@ export default function Music() {
   width="0"
   height="0"
   playing={true}
-  playIcon={<Button variant="contained" color="secondary">Play</Button>}
+  playIcon={<div variant="contained" color="secondary">Play</div>}
   light="#ccc"
   style={{marginLeft: '20px',display: 'block'}}
 /></div>

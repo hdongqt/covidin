@@ -1,5 +1,4 @@
 import { Button } from '@material-ui/core';
-import { useEffect } from 'react';
 import ReactPlayer from "react-player";
 
 export default function Music() {
