@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACA,wBACA,CACA,oBACI,cAAe,CACf,KAAM,CACN,OACJ","file":"main.80164aff.chunk.css","sourcesContent":[".App {\nbackground-color: #CAD3C8;\n}\n.MuiButtonBase-root {\n    position: fixed;\n    top: 0;\n    right: 0;\n}"]}
