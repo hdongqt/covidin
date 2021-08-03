@@ -19,7 +19,7 @@ const initOptions = {
   },
   colorAxis: {
     min: 0,
-    max: 1000,
+    max: 25,
     tickInterval: 5,
     stops: [
       [0, "#F1EEF6"],

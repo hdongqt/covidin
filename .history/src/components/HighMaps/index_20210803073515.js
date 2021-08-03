@@ -18,16 +18,8 @@ const initOptions = {
     enabled: true,
   },
   colorAxis: {
-    min: 0,
-    max: 1000,
-    tickInterval: 5,
-    stops: [
-      [0, "#F1EEF6"],
-      [0.3, "#900037"],
-      [0.5, "#ba7878"],
-      [0.85, "#814a4a"],
-      [1, "#500007"]
-    ],
+    min: 1,
+    
   },
   legend: {
     layout: 'vertical',
